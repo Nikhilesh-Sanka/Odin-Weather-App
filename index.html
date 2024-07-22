@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link href="./styles.css" rel="stylesheet" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <h1>Weather App</h1>
+    <div id="user-inputs">
+      <input id="location-input" type="text" placeholder="location" />
+      <select id="unit">
+        <option value="fahrenheit">Fahrenheit</option>
+        <option value="celsius">Celsius</option>
+      </select>
+    </div>
+    <div id="results">
+      <p id="location">Location</p>
+      <p class="rainChance">
+        Rain Probability:<span class="rainChance"></span>
+      </p>
+      <p class="temperature">Temperature:<span class="temperature"></span></p>
+      <p class="humidity">Humidity:<span class="humidity"></span></p>
+      <p class="wind-speed">Wind Speed:<span class="wind-speed"></span></p>
+    </div>
+  </body>
+</html>
